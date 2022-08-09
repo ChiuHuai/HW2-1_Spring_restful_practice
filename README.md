@@ -33,6 +33,12 @@ Dependencies內增加Lombok，自動生成getter, setter 和 AllArgsConstructor�
 
 4.至 Postman 操作此專案
 
+* 取得所有訂單 http://localhost:8080/order
+* 根據ID取得單筆訂單 http://localhost:8080/order/:seq
+* 新增訂單 http://localhost:8080/order
+* 修改訂單 http://localhost:8080/order/:seq
+* 刪除訂單 http://localhost:8080/order/:seq
+
 <!-- CONTACT -->
 ## Contact
 
