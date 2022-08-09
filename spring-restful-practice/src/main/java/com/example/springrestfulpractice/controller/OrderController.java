@@ -23,7 +23,7 @@ public class OrderController {
 
     //change method name getOrderById() to getOrderBySeq,
     // cause the feature's name is seq in model.Order.
-    //http://localhost:8080/order/:id
+    //http://localhost:8080/order/:seq
     @GetMapping("/{seq}")
     public Order getOrderBySeq(@PathVariable int seq) {
         return this.orderService.getOrderBySeq(seq);
@@ -35,13 +35,13 @@ public class OrderController {
         return this.orderService.createOrder(order);
     }
 
-    // http://localhost:8080/order/:id
+    // http://localhost:8080/order/:seq
     @PutMapping("/{seq}")
     public Order updateOrder(@PathVariable int seq, @RequestBody Order order) {
         return this.orderService.updateOrder(seq, order);
     }
 
-    // http://localhost:8080/order/:id
+    // http://localhost:8080/order/:seq
     @DeleteMapping("/{seq}")
     public Order deleteOrder(@PathVariable int seq) {
         return this.orderService.deleteOrder(seq);
