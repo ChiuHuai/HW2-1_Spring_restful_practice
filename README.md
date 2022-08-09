@@ -26,8 +26,11 @@ Dependencies內增加Lombok，自動生成getter, setter 和 AllArgsConstructor�
 ## Getting Started
 
 1.將此專案下載或clone後，在 IDE 打開 pom.xml。
+
 2.開啟 Postman，import HW2.postman_collection.json
+
 3.回到 IDE ，執行src/main/java/com.example.springrestfulpractice 內的 SpringRestfulPracticeApplication
+
 4.至 Postman 操作此專案
 
 <!-- CONTACT -->
