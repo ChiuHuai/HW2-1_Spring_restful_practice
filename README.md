@@ -1,4 +1,4 @@
-# HW2-1_Spring_restful_practice
+# HW2-1_Spring_restful_practice_邱懷＿Huai Chiu
 8/5(Fri.) 的[課堂作業](https://hackmd.io/@BillYang3416/H1XI72Ea9#%E8%AA%B2%E5%A0%82%E4%BD%9C%E6%A5%AD)，
 建立 RESTful Web Service 專案，使用 Spring Boot RestController 及多種 Annotation，再到Postman操作專案。
 Dependencies內增加Lombok，自動生成getter, setter 和 AllArgsConstructor。
